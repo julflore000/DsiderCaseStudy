@@ -244,5 +244,5 @@ class weatherDemandForecast:
             
             predictionDataset.to_excel(writer,sheet_name='predicationAnalysis') 
         
-        print(f"Model output results saved to {excelOutputFileName}")
+        print(f"Energy Demand model output results saved to {excelOutputFileName}")
         

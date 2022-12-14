@@ -32,6 +32,7 @@ class weatherDataCollection:
         trainingWeatherDf.to_csv("../energyDemandData/trainingData.csv")
         forecastRequestDf.to_csv("../energyDemandData/forecastData.csv")
         
+        print("Saved training and forecast weather data to local energy demand folder")
 '''       
 os.chdir(f'{os.getcwd()}/src') 
 #userKey switch
