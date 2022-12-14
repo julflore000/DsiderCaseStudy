@@ -10,13 +10,10 @@ from datetime import datetime
 os.chdir(f'{os.getcwd()}/src')
 weatherDataInput = {"lat":31.026018,
             "long":-96.485245,
-            "userKey":"64MQ5Q5XXU3WA4EKL26EMEDKK",
+            "userKey":"",
             "TrainingDateRange": ["2021-11-05","2021-11-18"],
             "ForecastDateRange": ["2021-11-19","2021-12-03"]
             }
-#userKey = "USFUDWAANQJAA7SLT6MG4JXMT"
-#userKey = "64MQ5Q5XXU3WA4EKL26EMEDKK"
-#userKey = "6LHLGMMB9WU8VWUK6PJX88RU8"
 #if you get HTTP error 429-youve reached max weather requests
 
 #calling weatherDataRun-not calling right now to avoid hitting request limits

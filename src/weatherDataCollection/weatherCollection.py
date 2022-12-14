@@ -33,21 +33,4 @@ class weatherDataCollection:
         forecastRequestDf.to_csv("../energyDemandData/forecastData.csv")
         
         print("Saved training and forecast weather data to local energy demand folder")
-'''       
-os.chdir(f'{os.getcwd()}/src') 
-#userKey switch
-#userKey = "USFUDWAANQJAA7SLT6MG4JXMT"
-#userKey = "64MQ5Q5XXU3WA4EKL26EMEDKK"
-       
-weatherDataInput = {"lat":31.026018,
-            "long":-96.485245,
-            "userKey":userKey,
-            "TrainingDateRange": ["2022-11-05","2022-11-18"],
-            "ForecastDateRange": ["2022-11-19","2022-12-03"]
-            }
 
-#running test of weather API data call
-
-
-#weatherDataCollection.main(weatherDataInput)
-'''
